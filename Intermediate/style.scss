@@ -1,0 +1,41 @@
+#logo {
+    width: 55px;
+    margin: auto 15px;
+}
+
+.navbar {
+    background-color: rgb(99, 75, 238);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    width: 50%;
+    list-style: none;
+    padding-inline-start: 0px;
+    /* display: flex;
+    justify-content: flex-start;*/
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+nav ul li a {
+    padding: 12px 10px 12px 10px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    text-align: right;
+}
+
+ul.navlist li a:hover {
+    color: white;
+    text-decoration-line: none;
+    opacity: 1;
+}

@@ -1,0 +1,48 @@
+#logo {
+  width: 55px;
+  margin: auto 15px;
+}
+
+.navbar {
+  background-color: #634bee;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul {
+  width: 50%;
+  list-style: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  /* display: flex;
+    justify-content: flex-start;*/
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 20px;
+  text-align: right;
+}
+
+nav ul li a {
+  padding: 12px 10px 12px 10px;
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  text-align: right;
+}
+
+ul.navlist li a:hover {
+  color: white;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
