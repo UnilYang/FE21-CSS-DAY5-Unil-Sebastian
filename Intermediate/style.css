@@ -1,10 +1,15 @@
+.container {
+  width: 90%;
+  height: auto;
+}
+
 #logo {
   width: 55px;
   margin: auto 15px;
 }
 
 .navbar {
-  background-color: #634bee;
+  background-color: #4b76ee;
   width: 90%;
   margin: 0 auto;
   display: -webkit-box;
@@ -44,5 +49,56 @@ ul.navlist li a:hover {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   opacity: 1;
+}
+
+img#teslaphoto {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+}
+
+.quotes h2 {
+  margin: 0 auto;
+  width: 90%;
+  height: 50px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #74a7dd;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(22%, #74a7dd), color-stop(50%, #adccec), to(#daecf9));
+  background: linear-gradient(180deg, #74a7dd 22%, #adccec 50%, #daecf9 100%);
+}
+
+.teslatext {
+  width: 50%;
+  position: absolute;
+  border: none;
+  left: 10%;
+  top: 30%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+h4 {
+  color: white;
+  font-family: Arial, sans-serif;
+  padding-top: 12%;
 }
 /*# sourceMappingURL=style.css.map */

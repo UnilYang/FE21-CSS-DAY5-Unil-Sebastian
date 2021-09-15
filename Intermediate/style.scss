@@ -1,10 +1,18 @@
+$navbarcolor: rgb(75, 118, 238);
+$navbartextcolor: rgb(255, 255, 255);
+$maintextcolor: rgb(255, 255, 255);
+.container {
+    width: 90%;
+    height: auto;
+}
+
 #logo {
     width: 55px;
     margin: auto 15px;
 }
 
 .navbar {
-    background-color: rgb(99, 75, 238);
+    background-color: $navbarcolor;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -35,7 +43,49 @@ nav ul li a {
 }
 
 ul.navlist li a:hover {
-    color: white;
+    color: $navbartextcolor;
     text-decoration-line: none;
     opacity: 1;
+}
+
+img#teslaphoto {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: center;
+    background-size: cover;
+}
+
+.quotes h2 {
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: rgb(116, 167, 221);
+    background: linear-gradient(180deg, rgba(116, 167, 221, 1) 22%, rgba(173, 204, 236, 1) 50%, rgba(218, 236, 249, 1) 100%);
+}
+
+.teslatext {
+    width: 50%;
+    position: absolute;
+    border: none;
+    left: 10%;
+    top: 30%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: $maintextcolor;
+}
+
+h4 {
+    color: $maintextcolor;
+    font-family: Arial, sans-serif;
+    padding-top: 12%;
 }
